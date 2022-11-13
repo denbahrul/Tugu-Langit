@@ -1,0 +1,153 @@
+@media screen and (max-width: 1024px) {
+    .content-detail__other-thumbnail {
+        height: 200px;
+    }
+
+    .content-detail__thumbnail {
+        gap: 6px;
+    }
+
+    .content-detail__thumbnail1 {
+        height: 400px;
+    }
+
+    .content-detail__thumbnail2, .content-detail__thumbnail3  {
+        height: 197px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .content-detail__other-list {
+        grid-template-columns: repeat(4, 15em);
+        overflow: scroll;
+    }
+}
+
+@media screen and (max-width: 975px) {
+    .content-detail__description {
+        gap: 6;
+    }
+
+    .content-detail__description section {
+        padding: 0px;
+    }
+
+    .content-detail__description section h2 {
+        font-size: 12px;
+    }
+
+    .content-detail__description section p {
+        font-size: 12px;
+    }
+
+    .content-detail__thumbnail {
+        gap: 6px;
+    }
+
+    .content-detail__thumbnail1 {
+        height: 340px;
+    }
+
+    .content-detail__other-list {
+        grid-template-columns: repeat(4, 15em);
+        overflow: scroll;
+    }
+
+    .content-detail__thumbnail2, .content-detail__thumbnail3  {
+        height: 167px;
+    }
+
+    
+    .content-detail__fasilitas {
+        padding: 20px 0px;
+    }
+}
+
+@media screen and (max-width: 680px) { 
+    .content-detail__description {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+    }
+
+    .content-detail__description section {
+        padding: 0 20px;
+    }
+
+    .content-detail__description section h2 {
+        font-size: 16px;
+    }
+
+    .content-detail__description section p {
+        font-size: 16px;
+    }
+
+    .fasilitas-item p {
+        padding: 5px;
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 515px) {
+    .content-detail__description {
+        gap: 6;
+    }
+    
+    .content-detail__description section {
+        padding: 0px;
+    }
+
+    .content-detail__description section h2 {
+        font-size: 12px;
+    }
+
+    .content-detail__description section p {
+        font-size: 12px;
+    }
+
+    .content-detail__thumbnail {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .content-detail__thumbnail1 {
+        height: 300px;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .content-detail__thumbnail2 {
+        height: 130px;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .content-detail__thumbnail3  {
+        height: 130px;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+
+    .content-detail__title {
+        font-size: 28px;
+    }
+    
+    .content-detail__tagline {
+        font-size: 18px;
+    }
+
+    .fasilitas-list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        text-align: left;
+    }
+
+    .fasilitas-item {
+        margin-left: 5px;
+    }
+}

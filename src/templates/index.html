@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://use.fontawesome.com/b070c8f1df.js"></script>  
+    <title>Tugu Langit Sikunir Homestay</title>
+</head>
+<body>
+    <div id="contentPage"></div>
+    <footer>
+    </footer>
+    <script>
+        const toggleButton = document.getElementsByClassName('navbar-toggle')[0];
+        const navbarLinks = document.getElementsByClassName('navbar-links');
+
+        toggleButton.addEventListener('click', function () {
+            for (var i = 0; i < navbarLinks.length; i++)
+                navbarLinks[i].classList.toggle('active');
+        })
+    </script>
+</body>
+</html>

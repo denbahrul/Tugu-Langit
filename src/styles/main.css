@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+:root {
+    --primary-color: #6ABB9E;
+    --secondary-color: #696969;
+    --white-color: #FFFFFF;
+    --dark-color: #000000;
+    --text-xxl: 36px;
+    --tex-m: 18px;
+    --text-regular: 16px;
+    --text-s: 14px
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+.navbar {
+    width: 100%;
+    height: 68.5px;
+    background-color: var(--white-color);
+    position: sticky;
+    top: 0;
+}
+
+.navbar ul {
+    margin: auto;
+    display: flex;
+    width: 100%;
+    height: 68.5px;
+    align-items: center;
+    background-color: var(--white-color);
+    color: var(--dark-color);
+    padding: 0;
+    position: relative;
+    z-index: 1;
+}
+
+.navbar li {
+    list-style: none;
+    padding: 15px;
+    font-size: var(--text-regular);
+    background-color: var(--white-color);
+}
+
+.navbar a {
+    text-align: center;
+    text-decoration: none;
+    color: var(--dark-color);
+    transition: all 0.3s ease 0s;
+}
+
+.navbar-logo {
+    flex: 1;
+    font-size: 1.5rem;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.navbar-toggle {
+    display: none;
+}
+
+.navbar-links:hover a {
+    color: var(--primary-color);
+}
+
+.button-primary {
+    color: rgba(255, 255, 255, 0.8);
+    background: var(--primary-color);
+    padding: 10px 30px;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+    border: none;
+    margin: auto;
+    font-size: var(--text-regular);
+    text-align: center;
+}
+
+.button-primary:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(109, 152, 134, .4);
+}
+
+
+
+/* Hero section */
+.hero {
+    background-color: var(--white-color);
+}
+
+.hero-container {
+    background-image: url(../public/images/hero.jpg);
+    padding: 100px;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.tentang-kamar {
+    background-color: var(--white-color);
+}
+
+/* tentang */
+
+.tentang {
+    width: 100%;
+    background-color: var(--primary-color);
+
+}
+
+.tentang-container {
+    max-width: 1400px;
+    background-color: var(--primary-color);
+    padding: 100px;
+    margin: auto;
+    border-radius: 30px;
+}
+
+.tentang-container__flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tentang-container__gambar {
+    width: 50%;
+}
+
+.tentang-container__text {
+    width: 50%;
+    margin: auto;
+}
+
+.card-tentang {
+    margin: auto;
+    background-color: var(--white-color);
+    border-radius: 10px;
+    padding: 10px;
+    width: 70%;
+}
+
+.card-tentang img {
+    width: 100%;
+}
+
+/* Kamar */
+
+#kamar {
+    width: 100%;
+    background-color: var(--primary-color);
+    padding-bottom: 100px;
+}
+
+.kamar-container {
+    background-color: var(--white-color);
+    margin: auto;
+    border-radius: 30px;
+    padding: 100px;
+    max-width: 1400px;
+}
+
+.kamar-container__flex {
+    display: flex;
+}
+
+.kamar-container__title {
+    flex: 1;
+}
+
+.kamar-container__button {
+    margin-left: auto;
+}
+
+
+.card {
+    margin-top: 1rem;
+    background-color: var(--white-color);
+    color: var(--dark-color);
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card img {
+    width: 100%;
+    object-fit: cover
+}
+
+.cards {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+}
+
+/* Fasilitas */
+
+.fasilitas {
+    width: 100%;
+    background-color: var(--white-color);
+}
+
+.fasilitas-container {
+    max-width: 1400px;
+    background-color: var(--white-color);
+    margin: auto;
+    margin-top: 100px;
+    padding: 100px;
+}
+
+.kartu {
+    margin-top: 10px;
+    background-color: var(--white-color);
+    color: var(--dark-color);
+    padding: 1rem;
+}
+
+.kartus {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+    text-align: center;
+}
+
+/* kontak */
+.kontak {
+    width: 100%;
+    background-color: var(--primary-color);
+
+}
+
+.kontak-container {
+    max-width: 1400px;
+    background-color: var(--primary-color);
+    padding: 100px;
+    margin: auto;
+    border-radius: 30px;
+}
+
+.kontak-container__flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kontak-container__kontak {
+    width: 50%;
+    margin: auto;
+}
+
+.kontak-container__map {
+    width: 50%;
+    margin: auto;
+}
+
+.card-map {
+    background-color: var(--white-color);
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+/* class untuk formating text */
+
+.bold-text {
+    font-weight: bolder;
+}
+
+.centered-text {
+    text-align: center;
+    margin: auto;
+}
+
+.t-xxl {
+    font-size: var(--text-xxl);
+}
+
+.t-regular {
+    font-size: var(--text-regular);
+}
+
+.t-m {
+    font-size: var(--tex-m);
+}
+
+.t-s {
+    font-size: var(--text-s);
+}
+
+.primary-text {
+    color: var(--primary-color);
+}
+
+.gray-text {
+    color: var(--secondary-color);
+}
+
+.white-text {
+    color: var(--white-color);
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+
+
+/* Screen larger than 600px? 2 column */
+@media (min-width: 600px) {
+
+    .cards,
+    .kartus {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+/* Screen larger than 900px? 3 columns */
+@media (min-width: 900px) {
+
+    .cards,
+    .kartus {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* grid */
+
+.wrapper {
+    padding-top: 50px;
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+/* Styling pendukung */
+.wrapper div {
+    border: 1px solid black;
+    color: var(--white-color);
+    padding: 30px;
+}
+
+
+.box1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.box2 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.box3 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.box4 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}

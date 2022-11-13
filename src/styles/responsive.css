@@ -1,0 +1,176 @@
+@media screen and (max-width: 499px) {
+
+    .navbar {
+        height: 51.6px;
+    }
+
+    .navbar ul {
+        flex-wrap: wrap;
+        padding: 0;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .active {
+        display: block;
+    }
+
+    .hero {
+        margin-top: 51.6px;
+    }
+
+    .kamar-container__flex {
+        flex-wrap: wrap;
+    }
+
+    .kamar-container {
+        padding: 30px;
+        margin: 100px 20px;
+    }
+
+    .fasilitas-container {
+        padding: 50px;
+    }
+
+    .kartus {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .kontak-container {
+        padding: 50px;
+    }
+
+    .kontak-container {
+        padding: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .kontak-container__flex,
+    .tentang-container__flex {
+        flex-wrap: wrap;
+    }
+
+    .kontak-container__kontak,
+    .tentang-container__text {
+        width: 100%;
+    }
+
+    .kontak-container__map,
+    .tentang-container__gambar {
+        background-color: var(--white-color);
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .hero-container,
+    .tentang-container {
+        padding: 50px;
+    }
+
+    .card-tentang {
+        display: none;
+    }
+
+
+    #button-kamar {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        height: 51.6px;
+    }
+
+    .navbar ul {
+        flex-wrap: wrap;
+        padding: 0;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .active {
+        display: block;
+    }
+
+    .hero {
+        margin-top: 51.6px;
+    }
+
+    .kamar-container__flex {
+        flex-wrap: wrap;
+    }
+
+    .kamar-container {
+        padding: 30px;
+        margin: 100px 20px;
+    }
+
+    .fasilitas-container,
+    .tentang-container,
+    .hero-container {
+        padding: 50px;
+    }
+
+    .kartus {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .kontak-container {
+        padding: 50px;
+    }
+
+    .kontak-container {
+        padding: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .kontak-container__flex,
+    .tentang-container__flex {
+        flex-wrap: wrap;
+    }
+
+    .tentang-container__text {
+        width: 100%;
+    }
+
+    .card-tentang {
+        display: none;
+    }
+
+    #button-kamar {
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    navbar {
+        height: 68.5px;;
+    }
+    .navbar ul {
+        max-width: 1230px;
+    }
+
+    .kamar-container {
+        width: 1400px;
+    }
+}
