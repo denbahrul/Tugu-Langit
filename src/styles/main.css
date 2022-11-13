@@ -32,31 +32,25 @@ body {
 }
 
 .navbar {
-    width: 100%;
-    height: 68.5px;
     background-color: var(--white-color);
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
+
 .navbar ul {
-    margin: auto;
     display: flex;
     width: 100%;
-    height: 68.5px;
     align-items: center;
     background-color: var(--white-color);
     color: var(--dark-color);
-    padding: 0;
-    position: relative;
-    z-index: 1;
+    margin: 0 auto;
 }
 
 .navbar li {
     list-style: none;
     padding: 15px;
-    font-size: var(--text-regular);
-    background-color: var(--white-color);
 }
 
 .navbar a {
@@ -71,6 +65,7 @@ body {
     font-size: 1.5rem;
     -webkit-user-select: none;
     user-select: none;
+    font-weight: bold;
 }
 
 .navbar-toggle {
@@ -79,6 +74,20 @@ body {
 
 .navbar-links:hover a {
     color: var(--primary-color);
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+}
+
+.button-nav {
+    color: rgba(255, 255, 255, 0.8);
+    background: var(--primary-color);
+    padding: 12px 20px;
+    border-radius: 0px;
+    transition: all 0.2s ease-in-out;
+    border: none;
+    margin: auto;
+    font-size: var(--text-regular);
+    text-align: center;
 }
 
 .button-primary {
@@ -170,8 +179,8 @@ body {
     background-color: var(--white-color);
     margin: auto;
     border-radius: 30px;
-    padding: 100px;
-    max-width: 1400px;
+    padding: 80px 75px;
+    max-width: 1200px;
 }
 
 .kamar-container__flex {
@@ -217,8 +226,7 @@ body {
 .fasilitas-container {
     max-width: 1400px;
     background-color: var(--white-color);
-    margin: auto;
-    margin-top: 100px;
+    margin:100px auto;
     padding: 100px;
 }
 
@@ -238,32 +246,32 @@ body {
 }
 
 /* kontak */
-.kontak {
-    width: 100%;
-    background-color: var(--primary-color);
-
-}
 
 .kontak-container {
-    max-width: 1400px;
-    background-color: var(--primary-color);
-    padding: 100px;
+    max-width: 1200px;
+    background-color: var(--white-color);
+    position: relative;
+    padding: 150px 20px;
     margin: auto;
     border-radius: 30px;
 }
 
 .kontak-container__flex {
-    display: flex;
-    flex-wrap: wrap;
+    background-color: var(--primary-color);
+    padding: 75px 50px;
+    border-radius: 30px;
 }
 
 .kontak-container__kontak {
-    width: 50%;
-    margin: auto;
+    text-align: left;
+    padding-left: 30px;
 }
 
 .kontak-container__map {
-    width: 50%;
+    position: absolute;
+    top: 1px;
+    right: 50px;
+    width: 40%;
     margin: auto;
 }
 
@@ -272,6 +280,13 @@ body {
     border-radius: 10px;
     padding: 10px;
     width: 100%;
+    box-shadow: 1px 2px 4px 1px rgba(80, 80, 80, 0.2);
+
+}
+
+.card-map  iframe {
+    width: 100%;
+    max-height: 410px;
 }
 
 /* class untuk formating text */

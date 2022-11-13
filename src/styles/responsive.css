@@ -84,6 +84,16 @@
     #button-kamar {
         display: none;
     }
+
+    .kontak-container {
+        padding: 50px 0px;
+    }
+    
+    .kontak-container__flex {
+        padding: 0px;
+        display: grid;
+        grid-template-rows: 1fr 2fr;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -133,17 +143,6 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .kontak-container {
-        padding: 50px;
-    }
-
-    .kontak-container {
-        padding: 30px;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-    .kontak-container__flex,
     .tentang-container__flex {
         flex-wrap: wrap;
     }
@@ -159,6 +158,30 @@
     #button-kamar {
         display: none;
     }
+
+    .kontak-container__flex {
+        padding: 20px;
+        display:grid;
+        grid-template-rows: 1fr 2fr;
+        border-radius: 10px;
+    }
+    
+    .kontak-container__kontak {
+        text-align: left;
+        padding: 10px 10px;
+    }
+    
+    .kontak-container__map {
+        position:static;
+        margin: auto;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .card-map  iframe {
+        width: 100%;
+        max-height: 350px;
+    }
 }
 
 
@@ -172,5 +195,9 @@
 
     .kamar-container {
         width: 1400px;
+    }
+
+    .kontak-container {
+        padding: 150px 0px;
     }
 }

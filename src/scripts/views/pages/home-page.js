@@ -11,7 +11,7 @@ const HomePage = {
         <li class="navbar-links"><a href="#fasilitas">Fasilitas</a></li>
         <li class="navbar-links"><a href="#kontak">Kontak</a></li>
         <li class="navbar-links"><a href="#">Destinasi</a></li>
-        <li class="navbar-links"><button class="button-primary">Pesan Sekarang</button></li>
+        <li class="navbar-links"><button class="button-nav">Pesan Sekarang</button></li>
     </ul>
 </nav>
 <main id="mainContent">
