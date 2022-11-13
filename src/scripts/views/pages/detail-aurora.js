@@ -4,7 +4,7 @@ const AuroraRoomPage = {
     <nav class="navbar">
     <ul>
         <li class="navbar-logo">TuguLangit.</li>
-        <li class="navbar-toggle"><a href="#" aria-label="Humburger Label">☰</a></li>
+        <li class="navbar-toggle"><a href="#" class="fa fa-bars" aria-label="Humburger Label"></a></li>
         <li class="navbar-links"><a href="#hero">Kembali ke Beranda</a></li>
         <li class="navbar-links"><button class="button-primary">Pesan Sekarang</button></li>
     </ul>

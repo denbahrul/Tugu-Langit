@@ -4,7 +4,7 @@ const HomePage = {
     <nav class="navbar">
     <ul>
         <li class="navbar-logo">TuguLangit.</li>
-        <li class="navbar-toggle"><a href="#" aria-label="Humburger Label">☰</a></li>
+        <li class="navbar-toggle"><a href="#" class="fa fa-bars" aria-label="Humburger Label"></a></li>
         <li class="navbar-links"><a href="#hero">Beranda</a></li>
         <li class="navbar-links"><a href="#tentang">Tentang</a></li>
         <li class="navbar-links"><a href="#kamar">Kamar</a></li>
