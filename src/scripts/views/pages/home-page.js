@@ -10,7 +10,7 @@ const HomePage = {
         <li class="navbar-links"><a href="#kamar">Kamar</a></li>
         <li class="navbar-links"><a href="#fasilitas">Fasilitas</a></li>
         <li class="navbar-links"><a href="#kontak">Kontak</a></li>
-        <li class="navbar-links"><a href="#">Destinasi</a></li>
+        <li class="navbar-links"><a href="#destinasi">Destinasi</a></li>
         <li class="navbar-links"><button class="button-nav">Pesan Sekarang</button></li>
     </ul>
 </nav>
@@ -215,6 +215,70 @@ const HomePage = {
 
         </div>
     </div>
+</section>
+<section id="destinasi" class="destinasi">
+<div class="destinasi-header">
+    <h3 class="t-xxl bold-text  primary-text">Destinasi Sekitar<br>-</h3>
+    <p>Jelajahi destinasi di sekitar Homestay Tugu Langit untuk menambahkan pengalaman liburan Anda.</p>
+</div>
+<div class="destinasi-container">
+    <div class="destinasi-list">
+        <img class="destinasi-thumbnail" src="https://images.unsplash.com/photo-1571738318198-fda6afce5348?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZGllbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60">
+        <div class="destinasi-title">
+            <p class="fa fa-map-marker"> </p>
+            <p> Gunung Prau</p>
+        </div>
+    </div>
+    <div class="destinasi-list">
+        <img class="destinasi-thumbnail" src=https://images.unsplash.com/photo-1624030058665-c243555d6f5a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80">
+        <div class="destinasi-title">
+            <p class="fa fa-map-marker"> </p>
+            <p> Kawah Sikidang</p>
+        </div>
+    </div>
+    <div class="destinasi-list">
+        <img class="destinasi-thumbnail" src="https://images.unsplash.com/photo-1611655906612-a06e250203fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8ZGllbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60">
+        <div class="destinasi-title">
+            <p class="fa fa-map-marker"> </p>
+            <p> Sikurnir Dieng</p>
+        </div>
+    </div>
+    <div class="destinasi-list">
+        <img class="destinasi-thumbnail" src="https://images.unsplash.com/photo-1580890310980-27d60c2ce1c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGRpZW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
+        <div class="destinasi-title">
+            <p class="fa fa-map-marker"> </p>
+            <p> Sikurnir Dieng</p>
+        </div>
+    </div>
+    <div class="destinasi-list">
+        <img class="destinasi-thumbnail" src="https://images.unsplash.com/photo-1611658983468-9dcedf91db63?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGllbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60">
+        <div class="destinasi-title">
+            <p class="fa fa-map-marker"> </p>
+            <p> Sikurnir Dieng</p>
+        </div>
+    </div>
+    <div class="destinasi-list">
+        <img class="destinasi-thumbnail" src="https://images.unsplash.com/photo-1638851777087-282c16994942?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGFyanVuYSUyMGRpZW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
+        <div class="destinasi-title">
+            <p class="fa fa-map-marker"> </p>
+            <p> Sikurnir Dieng</p>
+        </div>
+    </div>
+    <div class="destinasi-list">
+        <img class="destinasi-thumbnail" src="https://images.unsplash.com/photo-1602808680514-8c04c7552632?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGFyanVuYSUyMGRpZW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
+        <div class="destinasi-title">
+            <p class="fa fa-map-marker"> </p>
+            <p> Sikurnir Dieng</p>
+        </div>
+    </div>
+    <div class="destinasi-list">
+        <img class="destinasi-thumbnail" src="https://images.unsplash.com/photo-1556019947-8695cb3d4e81?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1073&q=80">
+        <div class="destinasi-title">
+            <p class="fa fa-map-marker"> </p>
+            <p> Sikurnir Dieng</p>
+        </div>
+    </div>
+</div>
 </section>
 <section id="kontak" class="kontak">
 <div class="div kontak-container">

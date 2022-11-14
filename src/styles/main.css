@@ -112,10 +112,12 @@ body {
 /* Hero section */
 .hero {
     background-color: var(--white-color);
+    background-image: url(../public/images/hero.jpg);
+    background-position: center;
+    height: 500px;
 }
 
 .hero-container {
-    background-image: url(../public/images/hero.jpg);
     padding: 100px;
     max-width: 1400px;
     margin: auto;
@@ -226,7 +228,7 @@ body {
 .fasilitas-container {
     max-width: 1400px;
     background-color: var(--white-color);
-    margin:100px auto;
+    margin:50px auto;
     padding: 100px;
 }
 
@@ -244,6 +246,55 @@ body {
     grid-gap: 1rem;
     text-align: center;
 }
+
+
+/* destinasi */
+
+.destinasi {
+    padding-top: 50px;
+    margin-bottom: 200px;
+}
+
+.destinasi-header {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.destinasi-list {
+    margin: 5px;
+    width: 400px;
+}
+
+.destinasi-thumbnail {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.destinasi-title {
+    display: flex;
+    padding: 5px;
+}
+
+.destinasi-title p {
+    font-size:medium;
+    font-weight:bolder;
+    padding: 5px;
+    color: #696969;
+}
+
+.destinasi-container {
+    display: flex;
+    overflow: scroll;
+}
+
+.destinasi-container::-webkit-scrollbar {
+    display: none
+}
+
 
 /* kontak */
 
