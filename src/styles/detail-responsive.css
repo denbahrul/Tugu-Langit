@@ -21,6 +21,11 @@
         grid-template-columns: repeat(4, 15em);
         overflow: scroll;
     }
+
+    .content-detail__other-list::-webkit-scrollbar {
+        display: none
+    }
+    
 }
 
 @media screen and (max-width: 975px) {

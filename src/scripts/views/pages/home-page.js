@@ -9,8 +9,8 @@ const HomePage = {
         <li class="navbar-links"><a href="#tentang">Tentang</a></li>
         <li class="navbar-links"><a href="#kamar">Kamar</a></li>
         <li class="navbar-links"><a href="#fasilitas">Fasilitas</a></li>
-        <li class="navbar-links"><a href="#kontak">Kontak</a></li>
         <li class="navbar-links"><a href="#destinasi">Destinasi</a></li>
+        <li class="navbar-links"><a href="#kontak">Kontak</a></li>
         <li class="navbar-links"><button class="button-nav">Pesan Sekarang</button></li>
     </ul>
 </nav>
