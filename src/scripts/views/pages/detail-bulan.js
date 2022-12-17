@@ -4,7 +4,7 @@ const BulanRoomPage = {
     <nav class="navbar">
     <ul>
         <li class="navbar-logo">TuguLangit.</li>
-        <li class="navbar-toggle"><a href="#" class="fa fa-bars" aria-label="Humburger Label"></a></li>
+        <li class="navbar-toggle"><a class="fa fa-bars" aria-label="Humburger Label"></a></li>
         <li class="navbar-links"><a href="#hero">Kembali ke Beranda</a></li>
         <li class="navbar-links"><button class="button-nav">Pesan Sekarang</button></li>
     </ul>
@@ -135,7 +135,13 @@ const BulanRoomPage = {
   },
 
   async afterRender() {
-    // Fungsi ini akan dipanggil setelah render()
+    const toggleButton = document.getElementsByClassName('navbar-toggle')[0];
+    const navbarLinks = document.getElementsByClassName('navbar-links');
+
+    toggleButton.addEventListener('click', () => {
+      // eslint-disable-next-line no-plusplus
+      for (let i = 0; i < navbarLinks.length; i++) navbarLinks[i].classList.toggle('active');
+    });
   },
 };
 

@@ -106,40 +106,13 @@
 }
 
 @media screen and (max-width: 768px) {
-    .navbar {
-        height: 51.6px;
-    }
-
-    .navbar ul {
-        flex-wrap: wrap;
-        padding: 0;
-    }
-
-    .navbar-toggle {
-        display: block;
-    }
-
-    .navbar-links {
-        display: none;
-        width: 100%;
-        text-align: center;
-    }
-
-    .active {
-        display: block;
-    }
-
-    .hero {
-        margin-top: 51.6px;
-    }
-
     .kamar-container__flex {
         flex-wrap: wrap;
     }
 
     .kamar-container {
         padding: 30px;
-        margin: 100px 20px;
+        margin: 0 20px;
     }
 
     .fasilitas-container,
@@ -191,6 +164,33 @@
         width: 100%;
         max-height: 350px;
     }
+}
+
+@media screen and (max-width: 945px) {
+    .navbar {
+        height: 51.6px;
+    }
+
+    .navbar ul {
+        flex-wrap: wrap;
+        padding: 0;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .active {
+        display: block;
+    }
+
+
 }
 
 

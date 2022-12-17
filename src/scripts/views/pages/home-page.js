@@ -4,7 +4,7 @@ const HomePage = {
     <nav class="navbar">
     <ul>
         <li class="navbar-logo">TuguLangit.</li>
-        <li class="navbar-toggle"><a href="#" class="fa fa-bars" aria-label="Humburger Label"></a></li>
+        <li class="navbar-toggle"><a class="fa fa-bars" aria-label="Humburger Label"></a></li>
         <li class="navbar-links"><a href="#hero">Beranda</a></li>
         <li class="navbar-links"><a href="#tentang">Tentang</a></li>
         <li class="navbar-links"><a href="#kamar">Kamar</a></li>
@@ -79,61 +79,51 @@ const HomePage = {
         </div>
     </div>
     <div class="cards mt-10">
-        <div class="card">
-            <img src="https://images.unsplash.com/photo-1556019947-8695cb3d4e81?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1073&q=80"
-                alt="" srcset="">
-            <p class="bold-text t-m mt-10">Kamar Bulan</p>
-            <p class="gray-text t-s mt-10">
-                2 Bad <br>
-                1 Bed ukuran 200 x 180 <br>
-                1 Bed ukuran 100 x 200
-            </p>
+        <section class="content-detail__room-item">
+            <img class="content-detail__room-thumbnail" src="./images/IMG-20221107-WA0060.jpg"/>
+            <div class="content-detail__room-description">
+                <h3 class="content-detail__room-title">Kamar Bintang</h3>
+                <p class="content-detail__room-type">2 Bed</p>
+                <p class="content-detail__room-price">Rp. 350.000,-</p>
+            </div>
             <a href="/#/kamar-bintang"><button class="button-primary mt-10 width-100 t-regular">Details</button></a>
-        </div>
-        <div class="card">
-            <img src="https://images.unsplash.com/photo-1556019947-8695cb3d4e81?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1073&q=80"
-                alt="" srcset="">
-            <p class="bold-text t-m mt-10">Kamar Bulan</p>
-            <p class="gray-text t-s mt-10">
-                2 Bad <br>
-                1 Bed ukuran 200 x 180 <br>
-                1 Bed ukuran 100 x 200
-            </p>
+        </section>
+            <section class="content-detail__room-item">
+            <img class="content-detail__room-thumbnail" src="./images/IMG-20221107-WA0061.jpg"/>
+            <div class="content-detail__room-description">
+                <h3 class="content-detail__room-title">Kamar Aurora</h3>
+                <p class="content-detail__room-type">1 Bed</p>
+                <p class="content-detail__room-price">Rp. 250.000,-</p>
+            </div>
             <a href="/#/kamar-aurora"><button class="button-primary mt-10 width-100 t-regular">Details</button></a>
-        </div>
-        <div class="card">
-            <img src="https://images.unsplash.com/photo-1556019947-8695cb3d4e81?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1073&q=80"
-                alt="" srcset="">
-            <p class="bold-text t-m mt-10">Kamar Bulan</p>
-            <p class="gray-text t-s mt-10">
-                2 Bad <br>
-                1 Bed ukuran 200 x 180 <br>
-                1 Bed ukuran 100 x 200
-            </p>
+        </section>
+        <section class="content-detail__room-item" href="/#/kamar-bulan">
+            <img class="content-detail__room-thumbnail" src="./images/IMG-20221107-WA0063.jpg"/>
+            <div class="content-detail__room-description">
+                <h3 class="content-detail__room-title">Kamar Bulan</h3>
+                <p class="content-detail__room-type">2 Bed</p>
+                <p class="content-detail__room-price">Rp. 300.000,-</p>
+            </div>
             <a href="/#/kamar-bulan"><button class="button-primary mt-10 width-100 t-regular">Details</button></a>
-        </div>
-        <div class="card">
-            <img src="https://images.unsplash.com/photo-1556019947-8695cb3d4e81?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1073&q=80"
-                alt="" srcset="">
-            <p class="bold-text t-m mt-10">Kamar Bulan</p>
-            <p class="gray-text t-s mt-10">
-                2 Bad <br>
-                1 Bed ukuran 200 x 180 <br>
-                1 Bed ukuran 100 x 200
-            </p>
+        </section>
+            <section class="content-detail__room-item">
+            <img class="content-detail__room-thumbnail" src="./images/IMG-20221107-WA0064.jpg"/>
+            <div class="content-detail__room-description">
+                <h3 class="content-detail__room-title">Kamar Meteor</h3>
+                <p class="content-detail__room-type">1 Bed</p>
+                <p class="content-detail__room-price">Rp. 200.000,-</p>
+            </div>
             <a href="/#/kamar-meteor"><button class="button-primary mt-10 width-100 t-regular">Details</button></a>
-        </div>
-        <div class="card">
-            <img src="https://images.unsplash.com/photo-1556019947-8695cb3d4e81?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1073&q=80"
-                alt="" srcset="">
-            <p class="bold-text t-m mt-10">Kamar Bulan</p>
-            <p class="gray-text t-s mt-10">
-                2 Bad <br>
-                1 Bed ukuran 200 x 180 <br>
-                1 Bed ukuran 100 x 200
-            </p>
+        </section>
+        <section class="content-detail__room-item">
+            <img class="content-detail__room-thumbnail" src="./images/IMG-20221107-WA0066.jpg"/>
+            <div class="content-detail__room-description">
+                <h3 class="content-detail__room-title">Kamar Satelit</h3>
+                <p class="content-detail__room-type">1 Bed</p>
+                <p class="content-detail__room-price">Rp. 200.000,-</p>
+            </div>
             <a href="/#/kamar-satelit"><button class="button-primary mt-10 width-100 t-regular">Details</button></a>
-        </div>
+        </section>
     </div>
 </div>
 </section>
@@ -307,7 +297,13 @@ const HomePage = {
   },
 
   async afterRender() {
-    // Fungsi ini akan dipanggil setelah render()
+    const toggleButton = document.getElementsByClassName('navbar-toggle')[0];
+    const navbarLinks = document.getElementsByClassName('navbar-links');
+
+    toggleButton.addEventListener('click', () => {
+      // eslint-disable-next-line no-plusplus
+      for (let i = 0; i < navbarLinks.length; i++) navbarLinks[i].classList.toggle('active');
+    });
   },
 };
 
