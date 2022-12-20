@@ -15,14 +15,14 @@ const BulanRoomPage = {
         <h1 class="content-detail__title">Kamar Bulan</h1>
         <p class="content-detail__tagline">Dapatkan penginapan yang nyaman disini</p>
         <div class="content-detail__thumbnail">
-            <img class="content-detail__thumbnail1" src="./images/IMG-20221107-WA0063.jpg"/>
-            <img class="content-detail__thumbnail2" src="./images/IMG-20221107-WA0063.jpg"/>
-            <img class="content-detail__thumbnail3" src="./images/IMG-20221107-WA0063.jpg"/>
+            <img class="content-detail__thumbnail1" src="./images/kamar-bulan.jpg"/>
+            <img class="content-detail__thumbnail2" src="./images/kamar-bulan.jpg"/>
+            <img class="content-detail__thumbnail3" src="./images/kamar-bulan.jpg"/>
         </div>
         <div class="content-detail__description">
             <section>
                 <p>Spesifikasi</p>
-                <h2>1 Bed ukuran 100 x 180<br>1 Bed ukuran 100 x 180</h2>
+                <h2>1 Bed ukuran 100 x 180</h2>
             </section>
             <section>
                 <p>Check-In</p>
@@ -34,7 +34,7 @@ const BulanRoomPage = {
             </section>
             <section>
                 <p>Harga Mulai</p>
-                <h2>Rp. 300.000 / malam</h2>
+                <h2><strong>Rp. 450.000</strong><i>/malam</i></h2>
             </section>
         </div>
         <div class="content-detail__fasilitas">
@@ -89,41 +89,51 @@ const BulanRoomPage = {
         <div class="content-detail__other-list">
             <a  href="/#/kamar-meteor">
             <section class="content-detail__other-item">
-                <img class="content-detail__other-thumbnail" src="./images/IMG-20221107-WA0064.jpg"/>
+                <img class="content-detail__other-thumbnail" src="./images/kamar-meteor.jpg"/>
                 <div class="content-detail__other-description">
                     <h3 class="content-detail__other-title">Kamar Meteor</h3>
                     <p class="content-detail__other-type">1 Bed</p>
-                    <p class="content-detail__other-price">Rp. 200.000,-</p>
+                    <p class="content-detail__other-price">Rp. 350.000,-</p>
                 </div>
             </section>
             </a>
             <a  href="/#/kamar-satelit">
             <section class="content-detail__other-item">
-                <img class="content-detail__other-thumbnail" src="./images/IMG-20221107-WA0066.jpg"/>
+                <img class="content-detail__other-thumbnail" src="./images/kamar-satelit.jpg"/>
                 <div class="content-detail__other-description">
                     <h3 class="content-detail__other-title">Kamar Satelit</h3>
                     <p class="content-detail__other-type">1 Bed</p>
-                    <p class="content-detail__other-price">Rp. 200.000,-</p>
+                    <p class="content-detail__other-price">Rp. 300.000,-</p>
+                </div>
+            </section>
+            </a>
+            <a  href="/#/kamar-tugulangit">
+            <section class="content-detail__other-item">
+                <img class="content-detail__other-thumbnail" src="./images/kamar-tugulangit.jpg"/>
+                <div class="content-detail__other-description">
+                    <h3 class="content-detail__other-title">Kamar Tugu Langit</h3>
+                    <p class="content-detail__other-type">2 Bed</p>
+                    <p class="content-detail__other-price">Rp. 800.000,-</p>
                 </div>
             </section>
             </a>
             <a  href="/#/kamar-bintang">
             <section class="content-detail__other-item">
-                <img class="content-detail__other-thumbnail" src="./images/IMG-20221107-WA0060.jpg"/>
+                <img class="content-detail__other-thumbnail" src="./images/kamar-bintang.jpg"/>
                 <div class="content-detail__other-description">
                     <h3 class="content-detail__other-title">Kamar Bintang</h3>
                     <p class="content-detail__other-type">2 Bed</p>
-                    <p class="content-detail__other-price">Rp. 350.000,-</p>
+                    <p class="content-detail__other-price">Rp. 550.000,-</p>
                 </div>
             </section>
             </a>
             <a  href="/#/kamar-aurora">
             <section class="content-detail__other-item">
-                <img class="content-detail__other-thumbnail" src="./images/IMG-20221107-WA0061.jpg"/>
+                <img class="content-detail__other-thumbnail" src="./images/kamar-aurora.jpg"/>
                 <div class="content-detail__other-description">
                     <h3 class="content-detail__other-title">Kamar Aurora</h3>
                     <p class="content-detail__other-type">1 Bed</p>
-                    <p class="content-detail__other-price">Rp. 250.000,-</p>
+                    <p class="content-detail__other-price">Rp. 350.000,-</p>
                 </div>
             </section>
             </a>

@@ -1,4 +1,4 @@
-const SatelitRoomPage = {
+const TugulangitRoomPage = {
   async render() {
     return `
     <nav class="navbar">
@@ -12,12 +12,12 @@ const SatelitRoomPage = {
 <main id="mainContent">
     <div class="content-detail">
     <article class="content-detail__room">
-        <h1 class="content-detail__title">Kamar Satelit</h1>
+        <h1 class="content-detail__title">Kamar Tugulangit</h1>
         <p class="content-detail__tagline">Dapatkan penginapan yang nyaman disini</p>
         <div class="content-detail__thumbnail">
-            <img class="content-detail__thumbnail1" src="./images/kamar-satelit.jpg"/>
-            <img class="content-detail__thumbnail2" src="./images/kamar-satelit.jpg"/>
-            <img class="content-detail__thumbnail3" src="./images/kamar-satelit.jpg"/>
+            <img class="content-detail__thumbnail1" src="./images/kamar-tugulangit.jpg"/>
+            <img class="content-detail__thumbnail2" src="./images/fasilitas-tugulangit.jpg"/>
+            <img class="content-detail__thumbnail3" src="./images/fasilitas-tugulangit.jpg"/>
         </div>
         <div class="content-detail__description">
             <section>
@@ -34,7 +34,7 @@ const SatelitRoomPage = {
             </section>
             <section>
                 <p>Harga Mulai</p>
-                <h2><strong>Rp. 300.000</strong><i>/malam</i></h2>
+                <h2><strong>Rp. 800.000</strong><i>/malam</i></h2>
             </section>
         </div>
         <div class="content-detail__fasilitas">
@@ -87,16 +87,6 @@ const SatelitRoomPage = {
     <article class="content-detail__other">
         <h2>Lihat Kamar Lain..</h2>
         <div class="content-detail__other-list">
-            <a  href="/#/kamar-tugulangit">
-            <section class="content-detail__other-item">
-                <img class="content-detail__other-thumbnail" src="./images/kamar-tugulangit.jpg"/>
-                <div class="content-detail__other-description">
-                    <h3 class="content-detail__other-title">Kamar Tugu Langit</h3>
-                    <p class="content-detail__other-type">2 Bed</p>
-                    <p class="content-detail__other-price">Rp. 800.000,-</p>
-                </div>
-            </section>
-            </a>
             <a  href="/#/kamar-bintang">
             <section class="content-detail__other-item">
                 <img class="content-detail__other-thumbnail" src="./images/kamar-bintang.jpg"/>
@@ -133,7 +123,17 @@ const SatelitRoomPage = {
                 <div class="content-detail__other-description">
                     <h3 class="content-detail__other-title">Kamar Meteor</h3>
                     <p class="content-detail__other-type">1 Bed</p>
-                    <p class="content-detail__other-price">Rp. 200.000,-</p>
+                    <p class="content-detail__other-price">Rp. 350.000,-</p>
+                </div>
+            </section>
+            </a>
+            <a  href="/#/kamar-satelit">
+            <section class="content-detail__other-item">
+                <img class="content-detail__other-thumbnail" src="./images/kamar-satelit.jpg"/>
+                <div class="content-detail__other-description">
+                    <h3 class="content-detail__other-title">Kamar Satelit</h3>
+                    <p class="content-detail__other-type">1 Bed</p>
+                    <p class="content-detail__other-price">Rp. 300.000,-</p>
                 </div>
             </section>
             </a>
@@ -155,4 +155,4 @@ const SatelitRoomPage = {
   },
 };
 
-export default SatelitRoomPage;
+export default TugulangitRoomPage;
