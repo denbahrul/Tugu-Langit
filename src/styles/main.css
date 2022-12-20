@@ -353,6 +353,10 @@ body {
     overflow: scroll;
 }
 
+.destinasi-container a {
+    text-decoration: none;
+}
+
 .destinasi-container::-webkit-scrollbar {
     display: none
 }
