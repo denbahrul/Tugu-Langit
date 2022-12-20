@@ -80,11 +80,20 @@ const HomePage = {
     </div>
     <div class="cards mt-10">
         <section class="content-detail__room-item">
+            <img class="content-detail__room-thumbnail" src="./images/IMG-20221107-WA0066.jpg"/>
+            <div class="content-detail__room-description">
+                <h3 class="content-detail__room-title">Kamar Tugu Langit</h3>
+                <p class="content-detail__room-type">2 Bed</p>
+                <p class="content-detail__room-price">Rp. 800.000,-</p>
+            </div>
+            <a href="/#/kamar-bintang"><button class="button-primary mt-10 width-100 t-regular">Details</button></a>
+        </section>
+        <section class="content-detail__room-item">
             <img class="content-detail__room-thumbnail" src="./images/IMG-20221107-WA0060.jpg"/>
             <div class="content-detail__room-description">
                 <h3 class="content-detail__room-title">Kamar Bintang</h3>
                 <p class="content-detail__room-type">2 Bed</p>
-                <p class="content-detail__room-price">Rp. 350.000,-</p>
+                <p class="content-detail__room-price">Rp. 550.000,-</p>
             </div>
             <a href="/#/kamar-bintang"><button class="button-primary mt-10 width-100 t-regular">Details</button></a>
         </section>
@@ -93,7 +102,7 @@ const HomePage = {
             <div class="content-detail__room-description">
                 <h3 class="content-detail__room-title">Kamar Aurora</h3>
                 <p class="content-detail__room-type">1 Bed</p>
-                <p class="content-detail__room-price">Rp. 250.000,-</p>
+                <p class="content-detail__room-price">Rp. 350.000,-</p>
             </div>
             <a href="/#/kamar-aurora"><button class="button-primary mt-10 width-100 t-regular">Details</button></a>
         </section>
@@ -102,7 +111,7 @@ const HomePage = {
             <div class="content-detail__room-description">
                 <h3 class="content-detail__room-title">Kamar Bulan</h3>
                 <p class="content-detail__room-type">2 Bed</p>
-                <p class="content-detail__room-price">Rp. 300.000,-</p>
+                <p class="content-detail__room-price">Rp. 450.000,-</p>
             </div>
             <a href="/#/kamar-bulan"><button class="button-primary mt-10 width-100 t-regular">Details</button></a>
         </section>
@@ -111,7 +120,7 @@ const HomePage = {
             <div class="content-detail__room-description">
                 <h3 class="content-detail__room-title">Kamar Meteor</h3>
                 <p class="content-detail__room-type">1 Bed</p>
-                <p class="content-detail__room-price">Rp. 200.000,-</p>
+                <p class="content-detail__room-price">Rp. 350.000,-</p>
             </div>
             <a href="/#/kamar-meteor"><button class="button-primary mt-10 width-100 t-regular">Details</button></a>
         </section>
@@ -120,7 +129,7 @@ const HomePage = {
             <div class="content-detail__room-description">
                 <h3 class="content-detail__room-title">Kamar Satelit</h3>
                 <p class="content-detail__room-type">1 Bed</p>
-                <p class="content-detail__room-price">Rp. 200.000,-</p>
+                <p class="content-detail__room-price">Rp. 300.000,-</p>
             </div>
             <a href="/#/kamar-satelit"><button class="button-primary mt-10 width-100 t-regular">Details</button></a>
         </section>
