@@ -34,7 +34,7 @@ const HomePage = {
     <div class="div tentang-container__flex">
         <div class="div tentang-container__gambar">
             <div class="card-tentang">
-                <img src="../images/IMG-20221107-WA0064.jpg" alt="" srcset="">
+                <img src="../images/TNTG.png" alt="" srcset="">
             </div>
         </div>
         <div class="tentang-container__text">
@@ -131,63 +131,63 @@ const HomePage = {
         <div class="kartu">
             <p class="fa fa-car centered-text t-m"></p>
             <p class="primary-text centered-text bold-text mt-10">Tempat Parkir</p>
-            <p class="centered-text mt-10">Tempat parkir luas.
+            <p class="centered-text mt-10 t-s">Tempat parkir luas.
             </p>
 
         </div>
         <div class="kartu">
             <p class=" fa fa-bath centered-text t-m"></p>
             <p class="primary-text centered-text bold-text mt-10">Kamar Mandi Dalam</p>
-            <p class="centered-text mt-10">Kamar mandi dalam yang nyaman .
+            <p class="centered-text mt-10 t-s">Kamar mandi dalam yang nyaman .
             </p>
 
         </div>
         <div class="kartu">
             <p class="fa fa-tint centered-text t-m"></p>
             <p class="primary-text centered-text bold-text mt-10">Air Hangat</p>
-            <p class="centered-text mt-10">Air panas untuk menangkal udara dingin Dieng.
+            <p class="centered-text mt-10 t-s">Air panas untuk menangkal udara dingin Dieng.
             </p>
 
         </div>
         <div class="kartu">
             <p class="fa fa-wifi centered-text t-m"></p>
             <p class="primary-text centered-text bold-text mt-10">Wifi</p>
-            <p class="centered-text mt-10">Wifi kencang untuk anda berbagi di internet.
+            <p class="centered-text mt-10 t-s">Wifi kencang untuk anda berbagi di internet.
             </p>
 
         </div>
         <div class="kartu">
             <p class="fa fa-coffee centered-text t-m"></p>
             <p class="primary-text centered-text bold-text mt-10">Teh, Kopi, Gula</p>
-            <p class="centered-text mt-10">Minuman hangat yang setia menemani anda saat santai.
+            <p class="centered-text mt-10 t-s">Minuman hangat yang setia menemani anda saat santai.
             </p>
 
         </div>
         <div class="kartu">
             <p class="fa fa-cutlery centered-text t-m"></p>
             <p class="primary-text centered-text bold-text mt-10">Dapur Masak</p>
-            <p class="centered-text mt-10">Dapur nyaman untuk anda memasak dikala lapar menerjang
+            <p class="centered-text mt-10 t-s">Dapur nyaman untuk anda memasak dikala lapar menerjang
             </p>
 
         </div>
         <div class="kartu">
             <p class="fa fa-shower centered-text t-m"></p>
             <p class="primary-text centered-text bold-text mt-10">Set Alat Mandi</p>
-            <p class="centered-text mt-10">Alat mandi untuk anda gunakan secara gratis.
+            <p class="centered-text mt-10 t-s">Alat mandi untuk anda gunakan secara gratis.
             </p>
 
         </div>
         <div class="kartu">
             <p class="fa fa-ticket centered-text t-m"></p>
             <p class="primary-text centered-text bold-text mt-10">Sendal Homestay</p>
-            <p class="centered-text mt-10">Sandal khas homestay untuk anda merasa nyaman
+            <p class="centered-text mt-10 t-s">Sandal khas homestay untuk anda merasa nyaman
             </p>
 
         </div>
         <div class="kartu">
             <p class="fa fa-male centered-text t-m"></p>
             <p class="primary-text centered-text bold-text mt-10">Handuk</p>
-            <p class="centered-text mt-10">Handuk untuk anda gunakan saat maupun setelah mandi.
+            <p class="centered-text mt-10 t-s">Handuk untuk anda gunakan saat maupun setelah mandi.
             </p>
 
         </div>
