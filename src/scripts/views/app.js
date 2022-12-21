@@ -10,6 +10,7 @@ class App {
     this._initialAppShell();
   }
 
+  // eslint-disable-next-line class-methods-use-this
   _initialAppShell() {
     // TODO: initial Drawer
     // kita bisa menginisiasikan komponen lain bila ada
