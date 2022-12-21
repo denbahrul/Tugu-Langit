@@ -83,6 +83,11 @@
     border-bottom: 1px solid  #c2c2c2;
 }
 
+.content-detail__description section h2 strong{
+    font-size: larger;
+    color: red;
+}
+
 .content-other {
     background-color: rgb(237, 240, 243);
 }
@@ -96,8 +101,9 @@
 .content-detail__other-list {
     padding: 20px 0;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 17em);
     gap: 10px;
+    overflow: scroll;
 }
 
 .content-detail__other-list a {

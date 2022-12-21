@@ -67,58 +67,58 @@ const HomePage = {
     </div>
     <div class="cards mt-10">
         <section class="content-detail__room-item">
-            <img class="content-detail__room-thumbnail" src="./images/IMG-20221107-WA0066.jpg"/>
+            <img class="content-detail__room-thumbnail" src="./images/kamar-tugulangit.jpg"/>
             <div class="content-detail__room-description">
                 <h3 class="content-detail__room-title">Kamar Tugu Langit</h3>
                 <p class="content-detail__room-type">2 Bed</p>
                 <p class="content-detail__room-price">Rp. 800.000,-</p>
             </div>
-            <a href="/#/kamar-bintang"><button class="button-primary mt-10 width-100 t-regular">Details</button></a>
+            <a href="/#/kamar-bintang"><button class="button-detail button-primary mt-10 width-100 t-regular">Details</button></a>
         </section>
         <section class="content-detail__room-item">
-            <img class="content-detail__room-thumbnail" src="./images/IMG-20221107-WA0060.jpg"/>
+            <img class="content-detail__room-thumbnail" src="./images/kamar-bintang.jpg"/>
             <div class="content-detail__room-description">
                 <h3 class="content-detail__room-title">Kamar Bintang</h3>
                 <p class="content-detail__room-type">2 Bed</p>
                 <p class="content-detail__room-price">Rp. 550.000,-</p>
             </div>
-            <a href="/#/kamar-bintang"><button class="button-primary mt-10 width-100 t-regular">Details</button></a>
+            <a href="/#/kamar-bintang"><button class="button-detail button-primary mt-10 width-100 t-regular">Details</button></a>
         </section>
             <section class="content-detail__room-item">
-            <img class="content-detail__room-thumbnail" src="./images/IMG-20221107-WA0061.jpg"/>
+            <img class="content-detail__room-thumbnail" src="./images/kamar-aurora.jpg"/>
             <div class="content-detail__room-description">
                 <h3 class="content-detail__room-title">Kamar Aurora</h3>
                 <p class="content-detail__room-type">1 Bed</p>
                 <p class="content-detail__room-price">Rp. 350.000,-</p>
             </div>
-            <a href="/#/kamar-aurora"><button class="button-primary mt-10 width-100 t-regular">Details</button></a>
+            <a href="/#/kamar-aurora"><button class="button-detail button-primary mt-10 width-100 t-regular">Details</button></a>
         </section>
         <section class="content-detail__room-item" href="/#/kamar-bulan">
-            <img class="content-detail__room-thumbnail" src="./images/IMG-20221107-WA0063.jpg"/>
+            <img class="content-detail__room-thumbnail" src="./images/kamar-bulan.jpg"/>
             <div class="content-detail__room-description">
                 <h3 class="content-detail__room-title">Kamar Bulan</h3>
                 <p class="content-detail__room-type">2 Bed</p>
                 <p class="content-detail__room-price">Rp. 450.000,-</p>
             </div>
-            <a href="/#/kamar-bulan"><button class="button-primary mt-10 width-100 t-regular">Details</button></a>
+            <a href="/#/kamar-bulan"><button class="button-detail button-primary mt-10 width-100 t-regular">Details</button></a>
         </section>
             <section class="content-detail__room-item">
-            <img class="content-detail__room-thumbnail" src="./images/IMG-20221107-WA0064.jpg"/>
+            <img class="content-detail__room-thumbnail" src="./images/kamar-meteor.jpg"/>
             <div class="content-detail__room-description">
                 <h3 class="content-detail__room-title">Kamar Meteor</h3>
                 <p class="content-detail__room-type">1 Bed</p>
                 <p class="content-detail__room-price">Rp. 350.000,-</p>
             </div>
-            <a href="/#/kamar-meteor"><button class="button-primary mt-10 width-100 t-regular">Details</button></a>
+            <a href="/#/kamar-meteor"><button class="button-detail button-primary mt-10 width-100 t-regular">Details</button></a>
         </section>
         <section class="content-detail__room-item">
-            <img class="content-detail__room-thumbnail" src="./images/IMG-20221107-WA0066.jpg"/>
+            <img class="content-detail__room-thumbnail" src="./images/kamar-satelit.jpg"/>
             <div class="content-detail__room-description">
                 <h3 class="content-detail__room-title">Kamar Satelit</h3>
                 <p class="content-detail__room-type">1 Bed</p>
                 <p class="content-detail__room-price">Rp. 300.000,-</p>
             </div>
-            <a href="/#/kamar-satelit"><button class="button-primary mt-10 width-100 t-regular">Details</button></a>
+            <a href="/#/kamar-satelit"><button class="button-detail button-primary mt-10 width-100 t-regular">Details</button></a>
         </section>
     </div>
 </div>
@@ -284,10 +284,36 @@ const HomePage = {
   async afterRender() {
     const toggleButton = document.getElementsByClassName('navbar-toggle')[0];
     const navbarLinks = document.getElementsByClassName('navbar-links');
+    const buttonDetail2 = document.getElementsByClassName('button-detail');
 
+    console.log(buttonDetail2);
     toggleButton.addEventListener('click', () => {
       // eslint-disable-next-line no-plusplus
       for (let i = 0; i < navbarLinks.length; i++) navbarLinks[i].classList.toggle('active');
+    });
+
+    buttonDetail2[0].addEventListener('click', () => {
+      window.scroll({ top: 0, left: 0, behavior: 'smooth' });
+    });
+
+    buttonDetail2[1].addEventListener('click', () => {
+      window.scroll({ top: 0, left: 0, behavior: 'smooth' });
+    });
+
+    buttonDetail2[2].addEventListener('click', () => {
+      window.scroll({ top: 0, left: 0, behavior: 'smooth' });
+    });
+
+    buttonDetail2[3].addEventListener('click', () => {
+      window.scroll({ top: 0, left: 0, behavior: 'smooth' });
+    });
+
+    buttonDetail2[4].addEventListener('click', () => {
+      window.scroll({ top: 0, left: 0, behavior: 'smooth' });
+    });
+
+    buttonDetail2[5].addEventListener('click', () => {
+      window.scroll({ top: 0, left: 0, behavior: 'smooth' });
     });
   },
 };
